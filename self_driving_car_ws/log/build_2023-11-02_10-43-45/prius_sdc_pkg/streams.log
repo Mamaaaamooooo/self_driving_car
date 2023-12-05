@@ -1,0 +1,36 @@
+[0.576s] Invoking command in '/home/goldminsu/self_driving_car_ws/src/prius_sdc_pkg': PYTHONPATH=/home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed
+[0.695s] running egg_info
+[0.695s] writing ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/PKG-INFO
+[0.695s] writing dependency_links to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/dependency_links.txt
+[0.695s] writing entry points to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/entry_points.txt
+[0.695s] writing requirements to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/requires.txt
+[0.695s] writing top-level names to ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/top_level.txt
+[0.715s] reading manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[0.715s] writing manifest file '../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info/SOURCES.txt'
+[0.715s] running build
+[0.715s] running build_py
+[0.715s] copying prius_sdc_pkg/Drive_Bot.py -> /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+[0.715s] copying prius_sdc_pkg/computer_vision_node.py -> /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg
+[0.716s] copying prius_sdc_pkg/Detection/Lanes/lane_detection.py -> /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+[0.716s] copying prius_sdc_pkg/Detection/Lanes/__init__.py -> /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes
+[0.716s] running install
+[0.716s] running install_lib
+[0.717s] copying /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Drive_Bot.py -> /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+[0.717s] copying /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes/lane_detection.py -> /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+[0.717s] copying /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/Detection/Lanes/__init__.py -> /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes
+[0.717s] copying /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build/lib/prius_sdc_pkg/computer_vision_node.py -> /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg
+[0.717s] byte-compiling /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Drive_Bot.py to Drive_Bot.cpython-38.pyc
+[0.718s] byte-compiling /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/lane_detection.py to lane_detection.cpython-38.pyc
+[0.718s] byte-compiling /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/Detection/Lanes/__init__.py to __init__.cpython-38.pyc
+[0.718s] byte-compiling /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg/computer_vision_node.py to computer_vision_node.cpython-38.pyc
+[0.719s] running install_data
+[0.719s] running install_egg_info
+[0.720s] removing '/home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.720s] Copying ../../build/prius_sdc_pkg/prius_sdc_pkg.egg-info to /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages/prius_sdc_pkg-0.0.0-py3.8.egg-info
+[0.720s] running install_scripts
+[0.730s] Installing computer_vision_node script to /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[0.730s] Installing driver_node script to /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[0.730s] Installing recorder_node script to /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[0.730s] Installing spawner_node script to /home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/prius_sdc_pkg
+[0.730s] writing list of installed files to '/home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/install.log'
+[0.742s] Invoked command in '/home/goldminsu/self_driving_car_ws/src/prius_sdc_pkg' returned '0': PYTHONPATH=/home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/prefix_override:/home/goldminsu/self_driving_car_ws/install/prius_sdc_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/prius_sdc_pkg build --build-base /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/build install --record /home/goldminsu/self_driving_car_ws/build/prius_sdc_pkg/install.log --install-scripts $base/lib/prius_sdc_pkg --single-version-externally-managed
